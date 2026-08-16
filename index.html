@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GameMarket - Tienda de Videojuegos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #34495e;
+            padding: 10px;
+            margin: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .producto {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 15px;
+            background-color: white;
+        }
+
+        .producto img {
+            width: 300px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>GameMarket</h1>
+    <p>Tu nueva tienda de videojuegos favorita, con los mejores títulos y accesorios.</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+</nav>
+
+<section id="inicio">
+    <h2>Bienvenido a GamerZone</h2>
+    <p>Somos una tienda dedicada a la venta de videojuegos para todas las plataformas. Encuentra los últimos lanzamientos y los clásicos de siempre a los mejores precios.</p>
+
+    <h3>Categorías</h3>
+    <ul>
+        <li>Acción</li>
+        <li>Aventura</li>
+        <li>Deportes</li>
+        <li>Estrategia</li>
+    </ul>
+</section>
+
+<section id="productos">
+    <h2>Productos destacados</h2>
+
+    <ul>
+        <li class="producto">
+            <img src="imagenes/juego1.jpg" alt="Portada del videojuego Dead Space 3">
+            <h3>Dead Space III</h3>
+            <p>Survival horror espacial: enfrenta criaturas mutantes en una nave abandonada.</p>
+        </li>
+
+        <li class="producto">
+            <img src="imagenes/juego2.jpg" alt="Portada del videojuego Ashpal">
+            <h3>Asphalt 9</h3>
+            <p>Carreras arcade con autos de lujo y acrobacias a alta velocidad.</p>
+        </li>
+
+        <li class="producto">
+            <img src="imagenes/juego3.jpg" alt="Portada del videojuego The Elder Scrolls VI">
+            <h3>The Elder Scrolls VI</h3>
+            <p>RPG de mundo abierto con exploración, magia y decisiones que importan.</p>
+        </li>
+    </ul>
+</section>
+
+<footer id="contacto">
+    <h2>Contacto</h2>
+    <p>Dirección: Av. Esquina Blanca 123, Santiago, Chile</p>
+    <p>Correo: contacto@gamemarket.cl</p>
+    <p>Síguenos en <a href="https://instagram.com" style="color: #1abc9c;">Instagram</a></p>
+</footer>
+
+</body>
+</html>
